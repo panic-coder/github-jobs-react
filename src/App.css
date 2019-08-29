@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -27,7 +27,163 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* .root {
+  flexGrow: 1,
+}
+
+.menuButton {
+  marginRight: theme.spacing(2),
+},
+title: {
+  flexGrow: 1,
+} */
+
+
+.toolbar-header {
+  height: 50px;
+  width: 100%;
+  color: #c9e2f1;
+  padding: 0 24px;
+  background-color: #2B7FC3;
+  border-top: 4px solid #1D5C8F;
+  border-bottom: 2px solid #D7D5D4;
+}
+
+.toolbar-text {
+  float: left;
+  margin-top: 14px;
+  width: 125px;
+  height: 20px;
+  text-indent: -9999px;
+  text-decoration: none;
+  background: url(https://jobs.github.com/images/layout/logo.png) 0 0 no-repeat;
+}
+
+.all-jobs {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.right-text {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  float: right;
+}
+
+.wrapper {
+  padding-left: 15em;
+  padding-right: 15em;
+}
+
+.featured-jobs {
+  padding-top: 500px;
+}
+
+.input {
+  height: 25px;
+  background: url(https://jobs.github.com/images/layout/layout_matrix.gif) #fff no-repeat;
+  background-position: 6px -94px;
+  /* background-position: 10px 10px; */
+  padding-left: 26px;
+  width: 289px !important
+}
+
+.space-div {
+  height: 30px;
+}
+
+.job-main-div {
+  padding-left: 15em;
+  padding-right: 15em;
+}
+
+.job-description {
+  padding-left: 1.5em;
+}
+
+.job-div {
+  margin: 0;
+  font-size: 12px;
+  color: #444;
+  font-weight: 600;
+}
+
+.input-location {
+  height: 25px;
+  background: url(https://jobs.github.com/images/layout/layout_matrix.gif) #fff no-repeat;
+  background-position: 6px -194px;
+  /* background-position: 10px 10px; */
+  padding-left: 26px;
+  width: 289px !important
+}
+
+.outer-div {
+  flex-direction: row;
+  display: flex;
+}
+
+.checkbox-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.input-checkbox {
+  display: flex;
+  align-items: center;
+  /* vertical-align: middle; */
+  height: 100%;
+}
+
+.input-text {
+  padding-left: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #444;
+  font-weight: 600;
+}
+
+.search-button {
+  float: left;
+  margin-top: 11px;
+  height: 32px;
+  padding: 0 20px;
+  line-height: 32px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  background: #869ca9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a2b8c5', endColorstr='#869ca9');
+  background: -webkit-gradient(linear, left top, left bottom, from(#a2b8c5), to(#869ca9));
+  background: -moz-linear-gradient(top, #a2b8c5, #869ca9);
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-button-div {
+  margin-left: 20px;
 }
